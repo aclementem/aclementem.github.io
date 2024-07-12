@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alejandro Clemente | Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Menú / Encabezado -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">aclementem</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#sobre-mi" onclick="seleccionar()">Sobre Mí</a></li>
+            <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+            <li><a href="#experiencia" onclick="seleccionar()">Experiencia</a></li>
+            <li><a href="#proyectos" onclick="seleccionar()">Proyectos</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="inicio">
+      <div class="baner">
+        <div class="contenedor-img">
+          <img src="/img/profile.png" alt="Imagen Avatar" />
+        </div>
+        <div class="contenido-baner">
+          <h1 class="">Hola, soy Alejandro Clemente</h1>
+          <h2 class="ml1">
+            <span class="letters">Desarrollador Front-End</span>
+          </h2>
+          <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
+          <div class="email">
+            <p class=""><a href="mailto:aclementem91@gmail.com">aclementem91@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="sobre-mi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          Con más de 1 año de experiencia en el desarrollo de experiencias web visualmente
+          atractivas y altamente funcionales. Especialista en tecnologías front-end, como HTML5,
+          CSS3 y JavaScript. Capaz de traducir diseños creativos en código interactivo y optimizar
+          la velocidad y el rendimiento del sitio web.
+        </p>
+        <button>
+          <a href="#">
+            Descargar CV <i class="fa-solid fa-download"></i> <span class="overlay"></span
+          ></a>
+        </button>
+      </div>
+    </section>
+
+    <!-- Sección Skills -->
+    <section id="skills" class="skills">
+      <div class="contenido-seccion">
+        <h2>Skills</h2>
+      </div>
+    </section>
+
+    <!-- Sección Experiencia -->
+    <section id="experiencia" class="experiencia">
+      <div class="contenido-seccion">
+        <h2>Experiencia</h2>
+      </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="proyectos">
+      <div class="contenido-seccion">
+        <h2>Proyectos</h2>
+        <div class="contenedor-proyectos">
+          <!-- GymFitness Badges: https://badges.pages.dev/?q=css -->
+          <div class="proyecto">
+            <img src="./img/proyecto-gymfitness.jpg" alt="Proyecto GymFitness" />
+            <div class="overlay">
+              <div class="overlay-texto">
+                <h3>GymFitness</h3>
+                <div class="tecnologias">
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=fff&style=flat-square"
+                      alt="WordPress" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat-square"
+                      alt="PHP" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square"
+                      alt="CSS3" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square"
+                      alt="JavaScript" />
+                  </p>
+                </div>
+                <div class="enlaces">
+                  <a href="https://dev-gymfitness-acm.pantheonsite.io/" target="_blank"
+                    ><i class="fa-brands fa-chrome"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="proyecto">
+            <img src="./img/proyecto-gymfitness.jpg" alt="Proyecto GymFitness" />
+            <div class="overlay">
+              <div class="overlay-texto">
+                <h3>GymFitness</h3>
+                <div class="tecnologias">
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=fff&style=flat-square"
+                      alt="WordPress" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat-square"
+                      alt="PHP" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square"
+                      alt="CSS3" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square"
+                      alt="JavaScript" />
+                  </p>
+                </div>
+                <div class="enlaces">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href=""><i class="fa-brands fa-chrome"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="proyecto">
+            <img src="./img/proyecto-gymfitness.jpg" alt="Proyecto GymFitness" />
+            <div class="overlay">
+              <div class="overlay-texto">
+                <h3>GymFitness</h3>
+                <div class="tecnologias">
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=fff&style=flat-square"
+                      alt="WordPress" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat-square"
+                      alt="PHP" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square"
+                      alt="CSS3" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square"
+                      alt="JavaScript" />
+                  </p>
+                </div>
+                <div class="enlaces">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href=""><i class="fa-brands fa-chrome"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="proyecto">
+            <img src="./img/proyecto-gymfitness.jpg" alt="Proyecto GymFitness" />
+            <div class="overlay">
+              <div class="overlay-texto">
+                <h3>GymFitness</h3>
+                <div class="tecnologias">
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=fff&style=flat-square"
+                      alt="WordPress" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat-square"
+                      alt="PHP" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square"
+                      alt="CSS3" />
+                  </p>
+                  <p>
+                    <img
+                      src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square"
+                      alt="JavaScript" />
+                  </p>
+                </div>
+                <div class="enlaces">
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                  <a href=""><i class="fa-brands fa-chrome"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>Contacto</h2>
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-square-github"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script src="/script.js"></script>
+    </footer>
+  </body>
+</html>

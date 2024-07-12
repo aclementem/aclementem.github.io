@@ -397,6 +397,12 @@ footer .arriba {
   }
 }
 
+@media (max-width: 400px) {
+  .inicio .baner {
+    padding-top: 200px;
+  }
+}
+
 @media (min-width: 770px) {
   .contenedor-proyectos {
     margin-top: 20px;

@@ -313,6 +313,56 @@ header .logo a {
   opacity: 1;
 }
 
+/* YEAR PROGRESS BAR */
+
+.year-progress {
+  background-color: #1e2326;
+  padding-top: 80px;
+  padding-bottom: 20px;
+
+  .contenido-seccion {
+    margin: 0 auto;
+    width: 60%;
+    background-color: #1e2326;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #1cb698;
+  }
+  h2 {
+    margin: 30px;
+  }
+  p {
+    text-align: center;
+    margin: 30px;
+  }
+}
+
+#progress-container {
+  width: 60%;
+  height: 30px;
+  background-color: #f3f3f3;
+  margin: 10px auto;
+  overflow: hidden;
+  border: 1px solid #1cb698;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  margin: 0;
+  background-color: #178871;
+  text-align: center;
+  color: #1e2326;
+  line-height: 30px;
+}
+#progress-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
 /* CONTACTO */
 .contacto {
   background-color: #1e2326;
@@ -366,6 +416,10 @@ footer .arriba {
   border-radius: 50%;
   line-height: 50px;
   font-size: 18px;
+}
+
+.text-copyright {
+  font-size: 13px;
 }
 
 /* RESPONSIVE */
